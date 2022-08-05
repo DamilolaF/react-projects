@@ -16,7 +16,7 @@ export const AppProvider = ({children}) => {
     const openSubmenu= () => {
         setIsSubmenuOpen(true)
     }
-    const closeModal = () => {
+    const closeSubmenu = () => {
         setIsSubmenuOpen(false)
     }
 
